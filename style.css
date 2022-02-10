@@ -25,6 +25,7 @@ header{
     border-radius: 0.200rem;
     background-color: gray;
     margin-right: 0.250rem;
+    cursor: pointer;
 }
 
 main{
@@ -53,7 +54,65 @@ main{
     font-size: 10px;
     background-color: rgb(128, 128, 128, 0.8);
     padding: 0.200rem 0.225rem;
+    cursor: pointer;
 }
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    padding-left: 0.5rem;
+    background-color: rgb(34 34 34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav p{
+    font-size: 10px;
+    color: white;
+    margin-top: 0.25rem;
+}
+
+.wrapper-buttons{
+    display: flex;
+    cursor: pointer;
+}
+
+.wrapper-buttons:nth-of-type(2) .button:nth-of-type(4){
+    color: greenyellow;
+}
+
+.button{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.2rem;
+}
+
+.button.chevron i{
+    font-size: 10px;
+    
+}
+
+.button > i{
+    font-size: 24px;
+}
+
+.end-meeting-button > button{
+    background-color: gray;
+    color: red;
+    height: 10vh;
+    border: none;
+    padding: 1rem;
+    margin: 0;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
 
 
 
